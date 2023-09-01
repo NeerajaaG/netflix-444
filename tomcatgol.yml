@@ -23,7 +23,7 @@
         mode: 755
     - name: Unarchive a file that needs to be downloaded
       ansible.builtin.unarchive:
-        src: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.tar.gz
+        src: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz
         dest: /opt/tomcat
         remote_src: yes
     - name: change ownership of tomcat 
